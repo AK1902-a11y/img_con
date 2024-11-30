@@ -29,7 +29,8 @@ Mode 2: Publishes the image without conversion (color mode).
 <br>
 <h3>Service API</h3>
 <br>
-To change the image conversion mode, you can call the ROS2 service from any other node or command line: <br><br>
+
+To change the image conversion mode, you can call the ROS2 service from any other node or command line (mentioned in service call text file in image conversion package): <br><br>
 ros2 service call /change_image_mode std_srvs/srv/SetBool "{data: true}"  # To set to greyscale mode<br>
 ros2 service call /change_image_mode std_srvs/srv/SetBool "{data: false}"  # Color <br>
 
