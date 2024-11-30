@@ -14,7 +14,7 @@ usb_cam package
 <br>
 Launhing Node: <br>
 ros2 launch image_conversion image_conversion_launch.py
-<br>
+<br><br>
 Once the launch file is executed, the USB camera will start publishing images on the ROS2 topic (e.g./image_raw), and the image_conversion node will be ready to subscribe to this topic and convert images as per the mode selected.
 <br>
 <h3>Configuration</h3> <br>
