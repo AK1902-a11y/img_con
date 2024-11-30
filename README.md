@@ -1,6 +1,6 @@
 <h1>Image conversion for USB Camera in ROS2</h1>
 <br>
-This project consists of two ROS2 nodes:
+<h4>This project consists of two ROS2 nodes:</h4>
 <br>
 usb_cam: A node that captures video from a USB or laptop camera and publishes the images on a ROS2 topic.
 <br>
