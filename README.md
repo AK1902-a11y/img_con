@@ -12,8 +12,8 @@ usb_cam package
 <br>
 <h3>Usage</h3> 
 <br>
-Launhing Node: <br>
-ros2 launch image_conversion image_conversion_launch.py
+Launching Node: <br><br>
+<b><code>ros2 launch image_conversion image_conversion_launch.py</code></b>
 <br><br>
 Once the launch file is executed, the USB camera will start publishing images on the ROS2 topic (e.g./image_raw), and the image_conversion node will be ready to subscribe to this topic and convert images as per the mode selected.
 <br>
@@ -31,8 +31,8 @@ Mode 2: Publishes the image without conversion (color mode).
 <br>
 
 To change the image conversion mode, you can call the ROS2 service from any other node or command line (mentioned in service call text file in image conversion package): <br><br>
-ros2 service call /change_image_mode std_srvs/srv/SetBool "{data: true}"  # To set to greyscale mode<br>
-ros2 service call /change_image_mode std_srvs/srv/SetBool "{data: false}"  # Color <br>
+<b><code>ros2 service call /change_image_mode std_srvs/srv/SetBool "{data: true}"</code></b>  # To set to greyscale mode<br>
+<b><code>ros2 service call /change_image_mode std_srvs/srv/SetBool "{data: false}"</code><b>  # Color <br>
 
 
 
