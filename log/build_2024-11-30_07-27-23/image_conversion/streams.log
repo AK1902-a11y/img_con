@@ -1,0 +1,28 @@
+[0.881s] Invoking command in '/home/akshat1902/my_ws/src/image_conversion': PYTHONPATH=/home/akshat1902/my_ws/build/image_conversion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_conversion build --build-base /home/akshat1902/my_ws/build/image_conversion/build install --record /home/akshat1902/my_ws/build/image_conversion/install.log --single-version-externally-managed install_data
+[1.187s] running egg_info
+[1.188s] writing ../../build/image_conversion/image_conversion.egg-info/PKG-INFO
+[1.188s] writing dependency_links to ../../build/image_conversion/image_conversion.egg-info/dependency_links.txt
+[1.189s] writing entry points to ../../build/image_conversion/image_conversion.egg-info/entry_points.txt
+[1.189s] writing requirements to ../../build/image_conversion/image_conversion.egg-info/requires.txt
+[1.189s] writing top-level names to ../../build/image_conversion/image_conversion.egg-info/top_level.txt
+[1.191s] reading manifest file '../../build/image_conversion/image_conversion.egg-info/SOURCES.txt'
+[1.192s] writing manifest file '../../build/image_conversion/image_conversion.egg-info/SOURCES.txt'
+[1.192s] running build
+[1.192s] running build_py
+[1.192s] copying image_conversion/image_conversion.py -> /home/akshat1902/my_ws/build/image_conversion/build/lib/image_conversion
+[1.192s] running install
+[1.193s] running install_lib
+[1.194s] copying /home/akshat1902/my_ws/build/image_conversion/build/lib/image_conversion/image_conversion.py -> /home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages/image_conversion
+[1.195s] byte-compiling /home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages/image_conversion/image_conversion.py to image_conversion.cpython-310.pyc
+[1.195s] Sorry: IndentationError: unindent does not match any outer indentation level (image_conversion.py, line 33)
+[1.195s] running install_data
+[1.196s] copying package.xml -> /home/akshat1902/my_ws/install/image_conversion/share/image_conversion
+[1.196s] creating /home/akshat1902/my_ws/install/image_conversion/share/image_conversion/launch
+[1.196s] copying launch/image_conversion_launch.py -> /home/akshat1902/my_ws/install/image_conversion/share/image_conversion/launch
+[1.196s] running install_egg_info
+[1.198s] removing '/home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages/image_conversion-0.0.0-py3.10.egg-info' (and everything under it)
+[1.198s] Copying ../../build/image_conversion/image_conversion.egg-info to /home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages/image_conversion-0.0.0-py3.10.egg-info
+[1.200s] running install_scripts
+[1.224s] Installing image_conversion script to /home/akshat1902/my_ws/install/image_conversion/lib/image_conversion
+[1.224s] writing list of installed files to '/home/akshat1902/my_ws/build/image_conversion/install.log'
+[1.260s] Invoked command in '/home/akshat1902/my_ws/src/image_conversion' returned '0': PYTHONPATH=/home/akshat1902/my_ws/build/image_conversion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_conversion build --build-base /home/akshat1902/my_ws/build/image_conversion/build install --record /home/akshat1902/my_ws/build/image_conversion/install.log --single-version-externally-managed install_data

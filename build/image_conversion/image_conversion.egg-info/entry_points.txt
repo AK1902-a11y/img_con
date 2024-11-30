@@ -1,0 +1,3 @@
+[console_scripts]
+image_conversion = image_conversion.image_conversion:main
+

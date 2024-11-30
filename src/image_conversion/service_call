@@ -1,0 +1,3 @@
+ros2 service call /change_image_mode std_srvs/srv/SetBool "{data: true}"  # To set to greyscale mode
+ros2 service call /change_image_mode std_srvs/srv/SetBool "{data: false}" # To set to color mode
+

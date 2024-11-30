@@ -1,0 +1,135 @@
+[0.049s] Invoking command in '/home/akshat1902/my_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat1902/robo_ws/install/task:/home/akshat1902/eyr_ws/install/ur5_control:/home/akshat1902/eyr_ws/install/sample_pkg_check:/home/akshat1902/eyr_ws/install/sample_pkg:/home/akshat1902/eyr_ws/install/ebot_navigation:/home/akshat1902/robo_ws/install/moveit_configs_utils:/home/akshat1902/robo_ws/install/learning_tf2_py:/home/akshat1902/robo_ws/install/launch_param_builder:/home/akshat1902/robo_ws/install/goal6:/home/akshat1902/robo_ws/install/goal5:/home/akshat1902/robo_ws/install/goal4:/home/akshat1902/robo_ws/install/goal3:/home/akshat1902/robo_ws/install/goal2:/home/akshat1902/robo_ws/install/control_ur:/opt/ros/humble /usr/bin/cmake /home/akshat1902/my_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/akshat1902/my_ws/install/usb_cam
+[1.099s] -- The C compiler identification is GNU 11.4.0
+[1.716s] -- The CXX compiler identification is GNU 11.4.0
+[1.727s] -- Detecting C compiler ABI info
+[1.984s] -- Detecting C compiler ABI info - done
+[1.990s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.990s] -- Detecting C compile features
+[1.992s] -- Detecting C compile features - done
+[1.995s] -- Detecting CXX compiler ABI info
+[2.098s] -- Detecting CXX compiler ABI info - done
+[2.103s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.104s] -- Detecting CXX compile features
+[2.104s] -- Detecting CXX compile features - done
+[2.172s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.477s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.586s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.628s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.656s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.720s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.021s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.068s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.570s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.622s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.669s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.823s] -- Looking for pthread.h
+[5.059s] -- Looking for pthread.h - found
+[5.059s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.175s] -- Found Threads: TRUE  
+[6.316s] -- Found OpenCV: /usr (found version "4.5.4") 
+[6.322s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.323s] -- Checking for module 'libavcodec'
+[6.373s] --   Found libavcodec, version 58.134.100
+[6.408s] -- Checking for module 'libavutil'
+[6.423s] --   Found libavutil, version 56.70.100
+[6.457s] -- Checking for module 'libswscale'
+[6.480s] --   Found libswscale, version 5.9.100
+[6.551s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.737s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.789s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.799s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.799s] -- Configured cppcheck include dirs: /home/akshat1902/my_ws/src/usb_cam/include
+[6.799s] -- Configured cppcheck exclude dirs and/or files: 
+[6.807s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.807s] -- Configured cpplint exclude dirs and/or files: 
+[6.808s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.811s] -- Added test 'lint_cmake' to check CMake code style
+[6.812s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.818s] -- Added test 'uncrustify' to check C / C++ code style
+[6.818s] -- Configured uncrustify additional arguments: 
+[6.819s] -- Added test 'xmllint' to check XML markup files
+[6.898s] -- Configuring done
+[6.927s] -- Generating done
+[6.929s] -- Build files have been written to: /home/akshat1902/my_ws/build/usb_cam
+[6.938s] Invoked command in '/home/akshat1902/my_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat1902/robo_ws/install/task:/home/akshat1902/eyr_ws/install/ur5_control:/home/akshat1902/eyr_ws/install/sample_pkg_check:/home/akshat1902/eyr_ws/install/sample_pkg:/home/akshat1902/eyr_ws/install/ebot_navigation:/home/akshat1902/robo_ws/install/moveit_configs_utils:/home/akshat1902/robo_ws/install/learning_tf2_py:/home/akshat1902/robo_ws/install/launch_param_builder:/home/akshat1902/robo_ws/install/goal6:/home/akshat1902/robo_ws/install/goal5:/home/akshat1902/robo_ws/install/goal4:/home/akshat1902/robo_ws/install/goal3:/home/akshat1902/robo_ws/install/goal2:/home/akshat1902/robo_ws/install/control_ur:/opt/ros/humble /usr/bin/cmake /home/akshat1902/my_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/akshat1902/my_ws/install/usb_cam
+[6.940s] Invoking command in '/home/akshat1902/my_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat1902/robo_ws/install/task:/home/akshat1902/eyr_ws/install/ur5_control:/home/akshat1902/eyr_ws/install/sample_pkg_check:/home/akshat1902/eyr_ws/install/sample_pkg:/home/akshat1902/eyr_ws/install/ebot_navigation:/home/akshat1902/robo_ws/install/moveit_configs_utils:/home/akshat1902/robo_ws/install/learning_tf2_py:/home/akshat1902/robo_ws/install/launch_param_builder:/home/akshat1902/robo_ws/install/goal6:/home/akshat1902/robo_ws/install/goal5:/home/akshat1902/robo_ws/install/goal4:/home/akshat1902/robo_ws/install/goal3:/home/akshat1902/robo_ws/install/goal2:/home/akshat1902/robo_ws/install/control_ur:/opt/ros/humble /usr/bin/cmake --build /home/akshat1902/my_ws/build/usb_cam -- -j12 -l12
+[6.994s] [ 28%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[6.994s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.994s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.994s] [ 28%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[9.186s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[9.288s] [ 35%] Built target gtest_main
+[10.254s] [ 42%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[10.879s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.936s] [ 50%] Built target gtest
+[11.641s] [ 57%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[12.006s] [ 57%] Built target usb_cam
+[12.027s] [ 78%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o[0m
+[12.027s] [ 78%] [32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o[0m
+[12.027s] [ 78%] [32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o[0m
+[12.372s] [ 78%] Built target usb_cam_node_exe
+[13.054s] [ 85%] [32m[1mLinking CXX executable test_usb_cam_utils[0m
+[13.200s] [ 85%] Built target test_usb_cam_utils
+[13.289s] [ 92%] [32m[1mLinking CXX executable test_pixel_formats[0m
+[13.417s] [ 92%] Built target test_pixel_formats
+[18.229s] [100%] [32m[1mLinking CXX shared library libusb_cam_node.so[0m
+[19.247s] [100%] Built target usb_cam_node
+[19.258s] Invoked command in '/home/akshat1902/my_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat1902/robo_ws/install/task:/home/akshat1902/eyr_ws/install/ur5_control:/home/akshat1902/eyr_ws/install/sample_pkg_check:/home/akshat1902/eyr_ws/install/sample_pkg:/home/akshat1902/eyr_ws/install/ebot_navigation:/home/akshat1902/robo_ws/install/moveit_configs_utils:/home/akshat1902/robo_ws/install/learning_tf2_py:/home/akshat1902/robo_ws/install/launch_param_builder:/home/akshat1902/robo_ws/install/goal6:/home/akshat1902/robo_ws/install/goal5:/home/akshat1902/robo_ws/install/goal4:/home/akshat1902/robo_ws/install/goal3:/home/akshat1902/robo_ws/install/goal2:/home/akshat1902/robo_ws/install/control_ur:/opt/ros/humble /usr/bin/cmake --build /home/akshat1902/my_ws/build/usb_cam -- -j12 -l12
+[19.313s] Invoking command in '/home/akshat1902/my_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat1902/robo_ws/install/task:/home/akshat1902/eyr_ws/install/ur5_control:/home/akshat1902/eyr_ws/install/sample_pkg_check:/home/akshat1902/eyr_ws/install/sample_pkg:/home/akshat1902/eyr_ws/install/ebot_navigation:/home/akshat1902/robo_ws/install/moveit_configs_utils:/home/akshat1902/robo_ws/install/learning_tf2_py:/home/akshat1902/robo_ws/install/launch_param_builder:/home/akshat1902/robo_ws/install/goal6:/home/akshat1902/robo_ws/install/goal5:/home/akshat1902/robo_ws/install/goal4:/home/akshat1902/robo_ws/install/goal3:/home/akshat1902/robo_ws/install/goal2:/home/akshat1902/robo_ws/install/control_ur:/opt/ros/humble /usr/bin/cmake --install /home/akshat1902/my_ws/build/usb_cam
+[19.320s] -- Install configuration: ""
+[19.320s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[19.320s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[19.320s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[19.321s] -- Set runtime path of "/home/akshat1902/my_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""
+[19.321s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/lib/usb_cam/show_image.py
+[19.321s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/lib/libusb_cam.so
+[19.322s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/lib/libusb_cam_node.so
+[19.326s] -- Set runtime path of "/home/akshat1902/my_ws/install/usb_cam/lib/libusb_cam_node.so" to ""
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/utils.hpp
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[19.326s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[19.327s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[19.327s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[19.327s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[19.327s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[19.327s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[19.327s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[19.327s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/include/usb_cam/constants.hpp
+[19.327s] -- Up-to-date: /home/akshat1902/my_ws/install/usb_cam/lib/libusb_cam_node.so
+[19.328s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/launch
+[19.328s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[19.328s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[19.328s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[19.328s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/config
+[19.328s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[19.328s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[19.328s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[19.328s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[19.329s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[19.329s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[19.329s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[19.329s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[19.329s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[19.329s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[19.329s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[19.330s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[19.330s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[19.330s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/package.dsv
+[19.330s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[19.330s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[19.330s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[19.330s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.331s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.331s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[19.331s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[19.331s] -- Installing: /home/akshat1902/my_ws/install/usb_cam/share/usb_cam/package.xml
+[19.333s] Invoked command in '/home/akshat1902/my_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat1902/robo_ws/install/task:/home/akshat1902/eyr_ws/install/ur5_control:/home/akshat1902/eyr_ws/install/sample_pkg_check:/home/akshat1902/eyr_ws/install/sample_pkg:/home/akshat1902/eyr_ws/install/ebot_navigation:/home/akshat1902/robo_ws/install/moveit_configs_utils:/home/akshat1902/robo_ws/install/learning_tf2_py:/home/akshat1902/robo_ws/install/launch_param_builder:/home/akshat1902/robo_ws/install/goal6:/home/akshat1902/robo_ws/install/goal5:/home/akshat1902/robo_ws/install/goal4:/home/akshat1902/robo_ws/install/goal3:/home/akshat1902/robo_ws/install/goal2:/home/akshat1902/robo_ws/install/control_ur:/opt/ros/humble /usr/bin/cmake --install /home/akshat1902/my_ws/build/usb_cam

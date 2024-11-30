@@ -1,0 +1,24 @@
+[0.881s] Invoking command in '/home/akshat1902/my_ws/src/image_conversion': PYTHONPATH=/home/akshat1902/my_ws/build/image_conversion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_conversion build --build-base /home/akshat1902/my_ws/build/image_conversion/build install --record /home/akshat1902/my_ws/build/image_conversion/install.log --single-version-externally-managed install_data
+[1.204s] running egg_info
+[1.205s] writing ../../build/image_conversion/image_conversion.egg-info/PKG-INFO
+[1.205s] writing dependency_links to ../../build/image_conversion/image_conversion.egg-info/dependency_links.txt
+[1.205s] writing entry points to ../../build/image_conversion/image_conversion.egg-info/entry_points.txt
+[1.206s] writing requirements to ../../build/image_conversion/image_conversion.egg-info/requires.txt
+[1.206s] writing top-level names to ../../build/image_conversion/image_conversion.egg-info/top_level.txt
+[1.208s] reading manifest file '../../build/image_conversion/image_conversion.egg-info/SOURCES.txt'
+[1.209s] writing manifest file '../../build/image_conversion/image_conversion.egg-info/SOURCES.txt'
+[1.209s] running build
+[1.209s] running build_py
+[1.209s] copying image_conversion/image_conversion.py -> /home/akshat1902/my_ws/build/image_conversion/build/lib/image_conversion
+[1.209s] running install
+[1.210s] running install_lib
+[1.213s] copying /home/akshat1902/my_ws/build/image_conversion/build/lib/image_conversion/image_conversion.py -> /home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages/image_conversion
+[1.214s] byte-compiling /home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages/image_conversion/image_conversion.py to image_conversion.cpython-310.pyc
+[1.215s] running install_data
+[1.215s] running install_egg_info
+[1.218s] removing '/home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages/image_conversion-0.0.0-py3.10.egg-info' (and everything under it)
+[1.218s] Copying ../../build/image_conversion/image_conversion.egg-info to /home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages/image_conversion-0.0.0-py3.10.egg-info
+[1.219s] running install_scripts
+[1.247s] Installing image_conversion script to /home/akshat1902/my_ws/install/image_conversion/lib/image_conversion
+[1.248s] writing list of installed files to '/home/akshat1902/my_ws/build/image_conversion/install.log'
+[1.293s] Invoked command in '/home/akshat1902/my_ws/src/image_conversion' returned '0': PYTHONPATH=/home/akshat1902/my_ws/build/image_conversion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akshat1902/my_ws/install/image_conversion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_conversion build --build-base /home/akshat1902/my_ws/build/image_conversion/build install --record /home/akshat1902/my_ws/build/image_conversion/install.log --single-version-externally-managed install_data
